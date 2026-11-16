@@ -1,0 +1,16 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Vanilla JavaScript calculator with keyboard support, tested end-to-end with Playwright",
+  "scripts": {
+    "start": "http-server -p 5173 -o",
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "author": "Santhosh Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "http-server": "^14.1.1"
+  }
+}
